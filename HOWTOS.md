@@ -1,18 +1,23 @@
 # HOW-TOs
 
-## Build package and publish project
+## Build package and publish to PyPI
 
 Dependency:
 
 ```bash
+# for source package
+pip install twine
+# (optional) for wheel package
 pip install twine
 ```
 
 Build:
 
 ```bash
-# build package
+# build source package
 python3 setup.py sdist build
-# publish
+# (optional) build wheel package
+python3 setup.py bdist_wheel
+# publish package
 python3 -m twine upload dist/*
 ```

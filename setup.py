@@ -17,6 +17,7 @@ setup(
     packages=find_packages(),
     platforms=["all"],
     url='https://github.com/okeyja/disk-smart-tool',
+    python_requires=">3.4.0",
     classifiers=[
         # 'Development Status :: 4 - Beta',
         'Operating System :: OS Independent',
