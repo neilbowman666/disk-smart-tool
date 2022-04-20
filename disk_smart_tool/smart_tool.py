@@ -1,4 +1,4 @@
-from smart import SMART
+from .smart import SMART
 
 smart_features = SMART()
 

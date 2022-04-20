@@ -14,7 +14,7 @@ yum install -y smartmontools
 ## Usage
 
 ```python
-from smart_tool import check_disk
+from disk_smart_tool.smart_tool import check_disk
 
 result = check_disk("/dev/sda")
 ```
