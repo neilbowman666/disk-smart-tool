@@ -8,7 +8,7 @@ Dependency:
 # for source package
 pip install twine
 # (optional) for wheel package
-pip install twine
+pip install wheel
 ```
 
 Build:
